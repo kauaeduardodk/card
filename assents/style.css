@@ -22,3 +22,9 @@ body {
   background: url(img/bg-desktop-red.webp);
   font-family: Gluten;
 }
+cartao__conteudo {
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+  }
+  
