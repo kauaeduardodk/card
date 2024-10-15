@@ -10,10 +10,9 @@ body {
   background: url(img/bg-desktop-green.webp);
   font-family: Gluten;
 }
-.cartao__conteudo {
-    background-color: var(--card-front-color);
-    text-align: center;
-    height: 100%;
+.cartao__conteudo{
+  transform-style: preserve-3d;
+  transition: transform 300ms ease-in-out;
   }
   #container {
     display: flex;
